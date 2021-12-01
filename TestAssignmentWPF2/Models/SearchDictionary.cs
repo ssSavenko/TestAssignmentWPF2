@@ -29,7 +29,7 @@ namespace TestAssignmentWPF2.Models
 
             while (curPartOfWord.Length > 0)
             {
-                if (curPartOfWord.Length != word.Length)
+                if (curPartOfWord.Length == word.Length)
                 { 
                     curPartOfWord.Length--;
                     continue;
